@@ -98,7 +98,9 @@ function App() {
                 </div>
               </div>
             ) : (
-              <div>{weather.message}</div>
+              <div style={{ textAlign: "center", fontSize: "30px" }}>
+                >{weather.message}
+              </div>
             )}
           </div>
         ) : (
